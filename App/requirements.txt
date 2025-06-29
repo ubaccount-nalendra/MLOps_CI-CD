@@ -1,4 +1,4 @@
-scikit-learn
+scikit-learn==1.6.1
 skops
-gradio
+gradio==4.29.0
 setuptools
