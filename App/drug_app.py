@@ -8,7 +8,7 @@ trusted_types = [
     "numpy.dtype"
 ]
 
-model_path = "Model/drug_pipeline.skops"
+model_path = "drug_pipeline.skops"
 pipe = sio.load(model_path, trusted=trusted_types)
 
 # Fungsi prediksi
